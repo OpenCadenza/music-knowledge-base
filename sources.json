@@ -1,3 +1,1998 @@
 {
-  "sources": []
+  "policy": {
+    "citation": "Use source IDs and a heading or page locator.",
+    "excerpts": "Paraphrase. Do not copy long passages into the resource pack.",
+    "training": "A retrieval source is not automatically a training source.",
+    "commercial": "Review each license and the intended use before redistribution."
+  },
+  "sources": [
+    {
+      "id": "omt-theme-types",
+      "url": "https://openmusictheory.github.io/classicalThemes.html",
+      "title": "Classical theme types",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-sentence",
+      "url": "https://openmusictheory.github.io/sentence.html",
+      "title": "The sentence",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "locator": "Presentation phrase; Continuation phrase; Phrase length",
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-period",
+      "url": "https://openmusictheory.github.io/period.html",
+      "title": "The period",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "locator": "Antecedent phrase; Consequent phrase",
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-sonata-intro",
+      "url": "https://openmusictheory.github.io/SonataTheory-intro.html",
+      "title": "Introduction to sonata theory",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-sonata-exposition",
+      "url": "https://openmusictheory.github.io/sonataThematicModules.html",
+      "title": "Sonata form: thematic modules",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "locator": "Primary; Transition; Subordinate; Closing modules",
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-sonata-development",
+      "url": "https://openmusictheory.github.io/sonataDevelopment.html",
+      "title": "Sonata form: the development",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "locator": "Tonal organization; Thematic organization; Four modules",
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-sonata-recap",
+      "url": "https://openmusictheory.github.io/sonataRecap.html",
+      "title": "Sonata form: the recapitulation",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "locator": "Essential sonata closure; Recomposition; Crux",
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-rondo",
+      "url": "https://openmusictheory.github.io/fivePartRondo.html",
+      "title": "Five-part rondo",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-minuet",
+      "url": "https://openmusictheory.github.io/minuet.html",
+      "title": "Minuet form",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-species-intro",
+      "url": "https://openmusictheory.github.io/speciesIntro.html",
+      "title": "Introduction to strict voice-leading",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-cantus-firmus",
+      "url": "https://openmusictheory.github.io/cantusFirmus.html",
+      "title": "Composing a cantus firmus",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-first-species",
+      "url": "https://openmusictheory.github.io/firstSpecies.html",
+      "title": "Composing a first-species counterpoint",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-second-species",
+      "url": "https://openmusictheory.github.io/secondSpecies.html",
+      "title": "Composing a second-species counterpoint",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-third-species",
+      "url": "https://openmusictheory.github.io/thirdSpecies.html",
+      "title": "Composing a third-species counterpoint",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-fourth-species",
+      "url": "https://openmusictheory.github.io/fourthSpecies.html",
+      "title": "Composing a fourth-species counterpoint",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-fugue",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/high-baroque-fugal-exposition/",
+      "title": "High Baroque fugal exposition",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0 except where otherwise noted",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2023 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "umn-composing-fugue",
+      "url": "https://open.lib.umn.edu/musiccomposition/chapter/composing-a-fugue/",
+      "title": "Composing a fugue",
+      "rights": {
+        "display": "attributed adaptation, except third-party material separately noted",
+        "license": "CC BY 4.0",
+        "training": "subject to original license and dataset review",
+        "retrieval": "allowed"
+      },
+      "locator": "Subject; Exposition; Counter-Subject; Episodes; Stretto",
+      "version": "Web edition accessed 2026-10-21",
+      "authority": "B",
+      "publisher": "University of Minnesota Open Textbook Library"
+    },
+    {
+      "id": "omt-harmonic-functions",
+      "url": "https://openmusictheory.github.io/harmonicFunctions.html",
+      "title": "Harmonic functions",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-cadences",
+      "url": "https://openmusictheory.github.io/cadenceTypes",
+      "title": "Classical cadence types",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-prolongation",
+      "url": "https://openmusictheory.github.io/harmonicSyntax2",
+      "title": "Harmonic syntax: prolongation",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "omt-modulation",
+      "url": "https://openmusictheory.github.io/Modulation.html",
+      "title": "Modulation",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "CC BY-SA 4.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "version": "2022 web edition",
+      "authority": "B",
+      "publisher": "Open Music Theory"
+    },
+    {
+      "id": "abc-2-1",
+      "url": "https://abcnotation.com/wiki/abc%3Astandard%3Av2.1/",
+      "title": "The ABC music standard 2.1",
+      "rights": {
+        "display": "link and independently written technical summary",
+        "license": "No repository-wide reuse license found in the checked page",
+        "training": "review required",
+        "retrieval": "allowed for technical verification"
+      },
+      "version": "2.1, published 2011",
+      "authority": "A",
+      "publisher": "abcnotation.com"
+    },
+    {
+      "id": "lilypond-2-26",
+      "url": "https://lilypond.org/doc/v2.26/Documentation/notation/index.html",
+      "title": "LilyPond 2.26 Notation Reference",
+      "rights": {
+        "display": "source metadata and independently written summary",
+        "license": "GNU Free Documentation License",
+        "training": "review the manual's license and invariant-section terms",
+        "retrieval": "allowed"
+      },
+      "version": "2.26.0",
+      "authority": "A",
+      "publisher": "GNU LilyPond"
+    },
+    {
+      "id": "ravel-sound",
+      "url": "https://mtosmt.org/issues/mto.21.27.1/mto.21.27.1.beavers.html",
+      "title": "Ravel's Sound: Timbre and Orchestration in His Late Works",
+      "rights": {
+        "display": "independently written brief summary with citation",
+        "license": "Copyright Society for Music Theory",
+        "training": "excluded without permission",
+        "retrieval": "link and bibliographic metadata"
+      },
+      "version": "Volume 27, Number 1, 2021",
+      "authority": "B",
+      "publisher": "Music Theory Online"
+    },
+    {
+      "id": "ravel-cambridge-harmony",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-ravel/harmony-in-the-chamber-music/9574ADD75877F749618ED9D9F5DD075F",
+      "title": "Harmony in the chamber music",
+      "rights": {
+        "display": "bibliographic citation only",
+        "license": "Copyright Cambridge University Press",
+        "training": "excluded without permission",
+        "retrieval": "metadata and abstract-level discovery"
+      },
+      "version": "Abstract and bibliographic record",
+      "authority": "B",
+      "publisher": "The Cambridge Companion to Ravel"
+    },
+    {
+      "id": "openscore-lieder",
+      "url": "https://github.com/OpenScore/Lieder",
+      "title": "OpenScore Lieder Corpus",
+      "rights": {
+        "display": "allowed subject to provenance and conversion labels",
+        "license": "CC0 per project corpus documentation",
+        "training": "allowed after record-level verification",
+        "retrieval": "allowed after verifying each imported record"
+      },
+      "version": "Repository state reviewed through corpus provenance",
+      "authority": "C",
+      "publisher": "OpenScore"
+    },
+    {
+      "id": "umn-canons",
+      "url": "https://open.lib.umn.edu/musiccomposition/chapter/composing-canons/",
+      "title": "Composing Canons",
+      "rights": {
+        "display": "independently written summary; third-party media excluded",
+        "license": "CC BY 4.0",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "A–F; inversion C, augmentation D",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "Justin Henry Rubin / University of Minnesota"
+    },
+    {
+      "id": "umn-variations",
+      "url": "https://open.lib.umn.edu/musiccomposition/chapter/composing-a-theme-and-variations/",
+      "title": "Composing a Theme and Variations",
+      "rights": {
+        "display": "independently written summary; third-party media excluded",
+        "license": "CC BY 4.0",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "First to Fifth Variation; Ending the Variations",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "Justin Henry Rubin / University of Minnesota"
+    },
+    {
+      "id": "philharmonia-instruments",
+      "url": "https://philharmonia.co.uk/resources/instruments/",
+      "title": "Instruments: violin, viola, cello",
+      "rights": {
+        "display": "independently written summary; third-party media excluded",
+        "license": "Copyright Philharmonia; link only",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "instrument-specific tuning and technique demonstrations",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "Instruments"
+    },
+    {
+      "id": "project-workflow",
+      "title": "OpusLoom verification and admission conventions",
+      "rights": {
+        "display": "independently written summary; third-party media excluded",
+        "license": "CC BY-SA 4.0",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Local scripts.md and knowledge/README.md; project policy, not external authority",
+      "version": "2026-10-21 accessed",
+      "authority": "project",
+      "publisher": "OpusLoom contributors"
+    },
+    {
+      "id": "lilypond-snippets",
+      "url": "https://lilypond.org/doc/v2.26/Documentation/snippets/index",
+      "title": "LilyPond 2.26 snippets",
+      "rights": {
+        "display": "independently written summary; third-party media excluded",
+        "license": "Public domain",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "index public-domain statement",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "LilyPond 2.26 snippets"
+    },
+    {
+      "id": "lilypond-convert",
+      "url": "https://lilypond.org/doc/v2.26/Documentation/usage/updating-files-with-convert_002dly",
+      "title": "Updating files with convert-ly",
+      "rights": {
+        "display": "independently written summary; third-party media excluded",
+        "license": "GFDL; technical facts only",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Command-line options; Manual conversions",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "Updating files with convert-ly"
+    },
+    {
+      "id": "bach-digital",
+      "url": "https://www.bach-digital.de/",
+      "title": "Bach Digital works and source database",
+      "rights": {
+        "display": "bibliographic metadata and independently written summary",
+        "license": "Site content varies by record",
+        "training": "record-by-record review required",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Bach-Werke-Verzeichnis and manuscript source database",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "Bach Digital partner institutions"
+    },
+    {
+      "id": "mutopia-bach-bwv772",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV772/bach-invention-01/",
+      "title": "Invention 1, BWV 772",
+      "rights": {
+        "display": "allowed with attribution and share-alike terms",
+        "license": "CC BY-SA 3.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Complete LilyPond transcription; compared measures 1-4",
+      "version": "Mutopia 2008/06/15-40; LilyPond 2.11.46",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-bach-bwv846-fugue",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-fugue1/",
+      "title": "Das Wohltemperierte Clavier I, Fuga I, BWV 846",
+      "rights": {
+        "display": "allowed",
+        "license": "Public Domain",
+        "training": "allowed subject to attribution and editorial review",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Complete fugue; compared the opening six bars",
+      "version": "Mutopia 2013/03/22-4; LilyPond 2.16.1",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-bach-bwv846-prelude",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV846/wtk1-prelude1/",
+      "title": "Das Wohltemperierte Clavier I, Prelude I, BWV 846",
+      "rights": {
+        "display": "allowed",
+        "license": "Public Domain",
+        "training": "allowed subject to attribution and editorial review",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Complete prelude; compared the opening two bars",
+      "version": "Mutopia 2011/09/12-5; LilyPond 2.14.2",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-bach-bwv988",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV988/bwv-988-aria/",
+      "title": "Goldberg Variations, BWV 988",
+      "rights": {
+        "display": "allowed with attribution and share-alike terms",
+        "license": "CC BY-SA 3.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Aria and Variation 1 opening bars",
+      "version": "Aria and Variation 1; LilyPond 2.16.1",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "bl-mozart-catalogue",
+      "url": "https://searcharchives.bl.uk/catalog/040-001945812",
+      "title": "Wolfgang Amadeus Mozart: Thematic Catalogue, Zweig MS 63",
+      "rights": {
+        "display": "bibliographic metadata and independently written summary",
+        "license": "Catalogue text stated as CC BY except where otherwise stated",
+        "training": "catalogue metadata review required; manuscript images excluded",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Scope and content; catalogue metadata statement",
+      "version": "2026-10-21 accessed",
+      "authority": "primary",
+      "publisher": "British Library"
+    },
+    {
+      "id": "mutopia-mozart-k545-m1",
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV545/K545-1/",
+      "title": "Piano Sonata in C major, K. 545, first movement",
+      "rights": {
+        "display": "allowed with attribution and share-alike terms",
+        "license": "CC BY-SA 3.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Complete first movement; opening and recapitulation entry compared",
+      "version": "Mutopia 2013/09/01-998; LilyPond 2.16.0",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-mozart-k331-theme",
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_1_tema/",
+      "title": "Piano Sonata in A major, K. 331, theme",
+      "rights": {
+        "display": "allowed",
+        "license": "Public Domain",
+        "training": "allowed subject to attribution and editorial review",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Theme opening; source labels PT",
+      "version": "Mutopia 2005/10/29-614; LilyPond 2.6.0",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-mozart-k331-var1",
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_2_var1/",
+      "title": "Piano Sonata in A major, K. 331, Variation 1",
+      "rights": {
+        "display": "allowed",
+        "license": "Public Domain",
+        "training": "allowed subject to attribution and editorial review",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Variation 1 opening",
+      "version": "Mutopia 2005/10/29-615; LilyPond 2.6.0",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-mozart-k457-m1",
+      "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV457/sonata1/",
+      "title": "Piano Sonata in C minor, K. 457, first movement",
+      "rights": {
+        "display": "allowed",
+        "license": "Public Domain",
+        "training": "allowed subject to attribution and editorial review",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Complete first movement; opening four bars compared",
+      "version": "Mutopia 2016/04/09-356; LilyPond 2.18.0",
+      "authority": "open-score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "openscore-string-quartets",
+      "url": "https://github.com/OpenScore/StringQuartets",
+      "title": "OpenScore String Quartets",
+      "rights": {
+        "display": "allowed with OpenScore String Quartets attribution and source record",
+        "license": "CC0 1.0",
+        "training": "allowed subject to record-level corpus verification",
+        "retrieval": "allowed after checking the selected score and provenance"
+      },
+      "sha256": "AC1AEB12D7CAE5241B200187FAF5E5EDB9AE4B0A2C7A107570F2A4370B55D38B",
+      "locator": "Ravel, String Quartet in F major, score 8482283; source path scores/Ravel,_Maurice/String_Quartet_in_F_major/sq8482283.mscx",
+      "version": "Repository reviewed 2026-10-21; Ravel score 8482283 records MuseScore 4.5.2",
+      "authority": "curated scholarly corpus",
+      "publisher": "OpenScore"
+    },
+    {
+      "id": "ravel-jenkins-quartet-thesis",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc663181/m2/1/high_res_d/1002603893-Jenkins.pdf",
+      "title": "A Comparative Study of the Harmonic Equipment and Formal Features in the String Quartets by Claude Debussy and Maurice Ravel",
+      "rights": {
+        "display": "bibliographic citation, locator, and independently written summary; source figures are not copied",
+        "license": "Repository terms; the thesis is provided for research access",
+        "training": "review repository and third-party rights before use",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Ravel analysis pp. 63-86; first movement pp. 73-76; cyclic returns pp. 80-85",
+      "version": "Master's thesis, North Texas State College, 1952",
+      "authority": "academic thesis",
+      "publisher": "UNT Digital Library"
+    },
+    {
+      "id": "ravel-kilpatrick-mere",
+      "url": "https://cpb-ap-se2.wpmucdn.com/blogs.unimelb.edu.au/dist/6/184/files/2016/09/34_Kilpatrick-246zr6w.pdf",
+      "title": "Therein Lies a Tale: Musical and Literary Structure in Ravel's Ma mere l'Oye",
+      "rights": {
+        "display": "bibliographic citation, locator, and independently written summary; no source figures or extended text",
+        "license": "Copyright Emily Kilpatrick; journal PDF made available online",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Ma mere l'Oye structure and modal-motivic analysis, published pp. 90-93 (PDF pp. 10-13)",
+      "version": "Context 34 (2009): 81-98; online 2011",
+      "authority": "peer-reviewed journal article",
+      "publisher": "Context: A Journal of Music Research, hosted by University of Melbourne"
+    },
+    {
+      "id": "ravel-heinzelmann-dissertation",
+      "url": "https://www.mtosmt.org/docs/diss-index.php?id=389",
+      "title": "Sonata Form in Ravel's Pre-War Chamber Music",
+      "rights": {
+        "display": "bibliographic citation, locator, and independently written summary only",
+        "license": "Copyright retained by the author; MTO hosts the bibliographic abstract",
+        "training": "excluded without permission",
+        "retrieval": "allowed for metadata and abstract-level verification"
+      },
+      "locator": "Abstract and chapters 4-5, especially the String Quartet first movement and cross-movement motivic transformations",
+      "version": "CUNY Graduate Center dissertation, completed February 2008; MTO abstract record",
+      "authority": "academic dissertation index",
+      "publisher": "Music Theory Online Dissertation Index"
+    },
+    {
+      "id": "omt-impressionism",
+      "url": "https://musictheory.pugetsound.edu/mt21c/Impressionism.html",
+      "title": "Impressionism",
+      "rights": {
+        "display": "bibliographic citation and independently written summary",
+        "license": "Open educational web resource; verify attribution terms on the source",
+        "training": "review the site and textbook license before dataset use",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Modes; upper extensions; parallelism and planing",
+      "version": "Open textbook web edition accessed 2026-10-21",
+      "authority": "open undergraduate textbook",
+      "publisher": "Music Theory for the 21st-Century Classroom"
+    },
+    {
+      "id": "philharmonie-ravel-quartet",
+      "url": "https://pad.philharmoniedeparis.fr/0763695-quatuor-en-fa-majeur-de-maurice-ravel.aspx?_lg=fr-FR",
+      "title": "Quatuor en fa majeur de Maurice Ravel",
+      "rights": {
+        "display": "bibliographic citation and independently written summary",
+        "license": "Copyright Philharmonie de Paris",
+        "training": "not granted by inclusion",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Movement and texture notes, including the scherzo's 6/8 and 3/4 interaction",
+      "version": "Concert listening guide accessed 2026-10-21",
+      "authority": "institutional listening guide",
+      "publisher": "Philharmonie de Paris"
+    },
+    {
+      "id": "ravel-bhogal-daphnis",
+      "url": "https://www.gmth.de/zeitschrift/artikel/270.aspx",
+      "title": "Breaking the Frame: Arabesque and Metric Complexity in the Sunrise Scene from Ravel's Daphnis et Chloe",
+      "rights": {
+        "display": "bibliographic citation, locator, and independently written summary; figures and text are not republished",
+        "license": "Copyright retained by the journal and author; article is openly available",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Arabesque motif; mm. 1-8; displacement at m. 15; 3/4 to 9/8 expansion at m. 55",
+      "version": "ZGMTH 5/1 (2008): 11-29; DOI 10.31751/270",
+      "authority": "peer-reviewed music-theory journal",
+      "publisher": "Zeitschrift der Gesellschaft fur Musiktheorie"
+    },
+    {
+      "id": "ravel-bhogal-bolero",
+      "url": "https://mtosmt.org/issues/mto.20.26.2/mto.20.26.2.bhogal.html",
+      "title": "Orchestral Tissue, Subordinate Arabesques, and Turning Inward in Maurice Ravel's Bolero",
+      "rights": {
+        "display": "bibliographic citation, locator, and independently written summary with citation",
+        "license": "Copyright Society for Music Theory",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Opening metric ambiguity; rhythmic and tonal ostinati; their merge around rehearsals 9-16; orchestration as form",
+      "version": "Volume 26, Number 2, 2020",
+      "authority": "peer-reviewed music-theory journal",
+      "publisher": "Music Theory Online"
+    },
+    {
+      "id": "vsl-violin-technique",
+      "url": "https://www.vsl.co.at/academy/strings/violin",
+      "title": "Violin",
+      "author": "",
+      "rights": {
+        "display": "Own concise analytical synthesis and bibliography only; no images/audio/prose reproduction",
+        "license": "Copyright; no open redistribution license asserted",
+        "training": "No training permission inferred",
+        "retrieval": "Public web reading; no access bypass"
+      },
+      "topics": [
+        "strings",
+        "playability",
+        "orchestration"
+      ],
+      "locator": "Playing Techniques (left hand): Double stops, Triple stops, Quadruple stops",
+      "version": "web consulted 2026-10-21",
+      "findings": [
+        "双音须考虑相邻弦及指法；三四音和弦常需分解。不要从音域合法推断任意多音持续可奏。"
+      ],
+      "authority": "B",
+      "publisher": "Vienna Symphonic Library",
+      "retrieved": "2026-10-21",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "vsl-clarinet-register",
+      "url": "https://www.vsl.co.at/academy/woodwinds/clarinet",
+      "title": "Clarinet in Bb",
+      "author": "",
+      "rights": {
+        "display": "Own concise analytical synthesis and bibliography only; no images/audio/prose reproduction",
+        "license": "Copyright; no open redistribution license asserted",
+        "training": "No training permission inferred",
+        "retrieval": "Public web reading; no access bypass"
+      },
+      "topics": [
+        "woodwind",
+        "transposition",
+        "register"
+      ],
+      "locator": "Range; Sound characteristics; Sound combinations",
+      "version": "web consulted 2026-10-21",
+      "findings": [
+        "Bb单簧管须区分实音与记谱音；音区改变也改变音色和穿透力。网页音区标记有文字歧义，量化表需另查演奏教材。"
+      ],
+      "authority": "B",
+      "publisher": "Vienna Symphonic Library",
+      "retrieved": "2026-10-21",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "vsl-horn-notation",
+      "url": "https://www.vsl.co.at/academy/brass/horn-f",
+      "title": "Viennese Horn",
+      "author": "",
+      "rights": {
+        "display": "Own concise analytical synthesis and bibliography only; no images/audio/prose reproduction",
+        "license": "Copyright; no open redistribution license asserted",
+        "training": "No training permission inferred",
+        "retrieval": "Public web reading; no access bypass"
+      },
+      "topics": [
+        "brass",
+        "historical-notation",
+        "transposition"
+      ],
+      "locator": "Notation: Modern notation; Older notation",
+      "version": "web consulted 2026-10-21",
+      "findings": [
+        "现代F圆号记谱比实音高五度；历史低音谱号规则可能不同，读旧谱先核对版本。页面历史概括不自动作为普遍规则。"
+      ],
+      "authority": "B",
+      "publisher": "Vienna Symphonic Library",
+      "retrieved": "2026-10-21",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "vsl-timpani-function",
+      "url": "https://www.vsl.co.at/academy/percussion/timpani",
+      "title": "Timpani",
+      "author": "",
+      "rights": {
+        "display": "Own concise analytical synthesis and bibliography only; no images/audio/prose reproduction",
+        "license": "Copyright; no open redistribution license asserted",
+        "training": "No training permission inferred",
+        "retrieval": "Public web reading; no access bypass"
+      },
+      "topics": [
+        "percussion",
+        "timpani",
+        "balance"
+      ],
+      "locator": "Playing Techniques: Rolls, Cut-off stroke, Glissando roll; Sound characteristics",
+      "version": "web consulted 2026-10-21",
+      "findings": [
+        "定音鼓须安排调音与止音；滚奏、残响和力度影响层次。踏板滑音以踏板鼓为前提。"
+      ],
+      "authority": "B",
+      "publisher": "Vienna Symphonic Library",
+      "retrieved": "2026-10-21",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "zeller-2023-farben",
+      "url": "https://mtosmt.org/issues/mto.23.29.3/mto.23.29.3.zeller.html",
+      "title": "Klangfarbenmelodie, Chromophony, and Timbral Function in Arnold Schoenberg’s “Farben”",
+      "author": "Matthew Zeller",
+      "rights": {
+        "display": "Own concise analytical synthesis and bibliography only; no images/audio/prose reproduction",
+        "license": "Copyright; no open redistribution license asserted",
+        "training": "No training permission inferred",
+        "retrieval": "Public web reading; no access bypass"
+      },
+      "topics": [
+        "20th-century",
+        "timbre",
+        "orchestra",
+        "formal-function"
+      ],
+      "locator": "[3.8–3.9], [5.1–5.6], [6.7–6.10]; Copyright Statement",
+      "version": "web consulted 2026-10-21",
+      "findings": [
+        "Zeller把音色变化解释为结构进程；其分析中音高目标与音色终止的时点可以错开。该框架属于作者分析，不是所有换乐器都算调制。"
+      ],
+      "authority": "B",
+      "publisher": "Music Theory Online 29.3",
+      "retrieved": "2026-10-21",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "berklee-virtual-orchestration-guide",
+      "url": "https://www.berklee.edu/berklee-now/news/deepen-your-orchestral-skills-as-a-film-composer",
+      "title": "Deepen Your Orchestral Skills as a Film Composer",
+      "author": "Bryan Parys",
+      "rights": {
+        "display": "Own concise analytical synthesis and bibliography only; no images/audio/prose reproduction",
+        "license": "Copyright; no open redistribution license asserted",
+        "training": "No training permission inferred",
+        "retrieval": "Public web reading; no access bypass"
+      },
+      "topics": [
+        "film",
+        "virtual-orchestration",
+        "harp"
+      ],
+      "locator": "2023-09-15; Advanced Strings and Zed Clef; Scoring an Action Scene; Realistic MIDI Glissandos",
+      "version": "web consulted 2026-10-21",
+      "findings": [
+        "机构页面链接多个教师示范，涵盖弦乐、动作场景与竖琴MIDI。这里只读网页简介，未观看视频；不能据此宣称掌握视频内技法。"
+      ],
+      "authority": "B",
+      "publisher": "Berklee",
+      "retrieved": "2026-10-21",
+      "access_status": "read-page-video-unreviewed"
+    },
+    {
+      "id": "smith-2021-continuous-edm",
+      "url": "https://mtosmt.org/issues/mto.21.27.2/mto.21.27.2.smith.html",
+      "title": "The Functions of Continuous Processes in Contemporary Electronic Dance Music",
+      "author": "Jeremy W. Smith",
+      "rights": {
+        "display": "Own concise synthesis and citation; no figures, lyrics or score examples copied",
+        "license": "Copyright author / SMT; research storage allowed, republication requires permission",
+        "training": "No training permission inferred",
+        "retrieval": "Public HTML read; research cache only"
+      },
+      "topics": [
+        "EDM",
+        "continuous-process",
+        "buildup",
+        "drop"
+      ],
+      "locator": "[1.2–1.4], [3.8–3.11]",
+      "version": "2021; MTO 27.2",
+      "findings": [
+        "区分离散的节奏加密与连续的音高/滤波变化。",
+        "连续过程可起装饰、定向或失向作用；堆叠能量不只依靠和声。研究聚焦2010年代特定EDM，不能泛化所有舞曲。"
+      ],
+      "authority": "B",
+      "publisher": "Music Theory Online / Society for Music Theory",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "stroud-2022-postchorus",
+      "url": "https://www.mtosmt.org/issues/mto.22.28.2/mto.22.28.2.stroud.html",
+      "title": "Codetta and Anthem Postchorus Types in Top-40 Pop from 2010 to 2015",
+      "author": "Cara Stroud",
+      "rights": {
+        "display": "Own concise synthesis and citation; no figures, lyrics or score examples copied",
+        "license": "Copyright author / SMT; research storage allowed, republication requires permission",
+        "training": "No training permission inferred",
+        "retrieval": "Public HTML read; research cache only"
+      },
+      "topics": [
+        "pop",
+        "postchorus",
+        "climax"
+      ],
+      "locator": "[0.1], [1.1–1.3]",
+      "version": "2022; MTO 28.2",
+      "findings": [
+        "区分延长已达高潮之后闭合的codetta型与在后副歌才达高潮的anthem型。",
+        "标签依据位置和修辞职责，不是只看副歌后是否还有四小节。两种类型属于作者对特定语料的分析。"
+      ],
+      "authority": "B",
+      "publisher": "Music Theory Online / Society for Music Theory",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "nobile-2022-teleology",
+      "url": "https://mtosmt.org/issues/mto.22.28.3/mto.22.28.3.nobile.html",
+      "title": "Teleology in Verse–Prechorus–Chorus Form, 1965–2020",
+      "author": "Drew Nobile",
+      "rights": {
+        "display": "Own concise synthesis and citation; no figures, lyrics or score examples copied",
+        "license": "Copyright author / SMT; research storage allowed, republication requires permission",
+        "training": "No training permission inferred",
+        "retrieval": "Public HTML read; research cache only"
+      },
+      "topics": [
+        "pop",
+        "prechorus",
+        "texture",
+        "formal-function"
+      ],
+      "locator": "[0.1–0.3], [1.1–1.2]",
+      "version": "2022; MTO 28.3",
+      "findings": [
+        "作者以启动、积累、抵达解释含prechorus的周期；较新作品可让织体、音色、演唱取代和声的主要推进职责。",
+        "这是一个有范围的分析原则，不能推出所有副歌都必须在开头作主调终止。"
+      ],
+      "authority": "B",
+      "publisher": "Music Theory Online / Society for Music Theory",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "geary-2024-drum-form",
+      "url": "https://mtosmt.org/issues/mto.24.30.2/mto.24.30.2.geary.html",
+      "title": "Formal Functions of Drum Patterns in Post-Millennial Pop Songs, 2012–2021",
+      "author": "David Geary",
+      "rights": {
+        "display": "Own concise synthesis and citation; no figures, lyrics or score examples copied",
+        "license": "Copyright author / SMT; research storage allowed, republication requires permission",
+        "training": "No training permission inferred",
+        "retrieval": "Public HTML read; research cache only"
+      },
+      "topics": [
+        "pop",
+        "drums",
+        "groove",
+        "formal-boundary"
+      ],
+      "locator": "[1.2–1.3], introduction to analytical system",
+      "version": "2024; MTO 30.2",
+      "findings": [
+        "用层数、节奏与乐器配置比较鼓型，讨论它们怎样标记形式边界和推进。",
+        "研究集中2012–2021年特定排行榜语料；鼓型是结构线索之一，不是以固定节奏强制分段。"
+      ],
+      "authority": "B",
+      "publisher": "Music Theory Online / Society for Music Theory",
+      "access_status": "read-sections"
+    },
+    {
+      "id": "hughes-lavengood-blues-harmony",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/blues-harmony/",
+      "title": "Blues Harmony",
+      "author": "Bryn Hughes and Megan Lavengood",
+      "rights": {
+        "display": "Text reuse requires attribution and ShareAlike; review each image, audio item, example, and third-party contribution separately.",
+        "license": "Open Music Theory text is licensed CC BY-SA 4.0 except where otherwise noted; embedded/third-party media may have separate terms.",
+        "training": "CC BY-SA 4.0 permits attributed adaptations, but item-level media rights and ShareAlike obligations still require review.",
+        "retrieval": "Public web text read on 2026-10-21; no raw copy retained."
+      },
+      "topics": [
+        "12-bar-blues",
+        "blues-harmony",
+        "dominant-seventh",
+        "plagal-cadence",
+        "jazz-blues",
+        "guide-tones"
+      ],
+      "locator": "\"12-Bar Blues\", \"Voice leading\", \"More Blues Schemas\", and \"Jazz Blues\"",
+      "version": "Open Music Theory, Version 2, online edition; copyright 2023; accessed 2026-10-21",
+      "authority": "B",
+      "publisher": "Open Music Theory",
+      "observations": [
+        "基本 12 小节模式分为三个四小节乐句：I；IV-I；V-IV-I-I，但各段可有 turnarounds 或局部拓展。",
+        "Blues 可由 dominant-seventh quality 的 tonic、subdominant 和 dominant 组成，并常通过 plagal motion 与大小三度并置偏离传统 tonal harmony。",
+        "16-bar blues、minor blues 与 jazz blues 是可变 schema；jazz blues 以 applied ii-V、turnaround 或 ii-V-I 改写纯 blues 动作。",
+        "和弦三音与七音可以跨五度关系平滑连接，给固定 blues frame 内的伴奏 voicing 提供局部声部逻辑。"
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "lavengood-swing-rhythms",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/swing-rhythms/",
+      "title": "Swing Rhythms",
+      "author": "Megan Lavengood",
+      "rights": {
+        "display": "Text reuse requires attribution and ShareAlike; embedded notation and audio require item-level review.",
+        "license": "Open Music Theory text is licensed CC BY-SA 4.0 except where otherwise noted; media attributions are listed on the chapter.",
+        "training": "CC BY-SA 4.0 permits attributed adaptation of cleared text, subject to ShareAlike and separate media terms.",
+        "retrieval": "Public web text read on 2026-10-21; no score, audio, or raw page copy retained."
+      },
+      "topics": [
+        "swing-eighths",
+        "backbeat",
+        "ride-cymbal",
+        "syncopation",
+        "drum-patterns"
+      ],
+      "locator": "\"The Basic Swing Groove\": \"Swing eighths\" and \"Backbeat\"; \"Syncopation\"",
+      "version": "Open Music Theory, Version 2, online edition; copyright 2023; accessed 2026-10-21",
+      "authority": "B",
+      "publisher": "Open Music Theory",
+      "observations": [
+        "Swing eighths 通常以约 2:1 的准三连音比例演奏，但实际比例取决于速度、演奏者和语境；快速度往往更接近平均。",
+        "Backbeat 是四拍中第 2、4 拍的较重音，常与 ride cymbal 上的 swing eighths 共同组成标准 swing drum beat。",
+        "第 1 拍仍是和弦变化与根音落点的重要位置，即使听觉重音转移到第 2、4 拍。",
+        "Syncopation 可由弱拍重音、休止、连线和避免 downbeat 起句产生，不能简化为单一的附点节奏。"
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "hughes-lavengood-aaba-strophic",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/aaba-and-strophic-form/",
+      "title": "AABA Form and Strophic Form",
+      "author": "Bryn Hughes and Megan Lavengood",
+      "rights": {
+        "display": "Text reuse requires attribution and ShareAlike; linked recordings, examples, and figures require separate review.",
+        "license": "Open Music Theory text is licensed CC BY-SA 4.0 except where otherwise noted; recordings and embedded media may have separate terms.",
+        "training": "CC BY-SA 4.0 permits attributed adaptation of cleared text, with ShareAlike and media-rights conditions.",
+        "retrieval": "Public web text read on 2026-10-21; no raw copy retained."
+      },
+      "topics": [
+        "AABA",
+        "32-bar-song-form",
+        "strophe",
+        "bridge",
+        "refrain",
+        "outro",
+        "coda"
+      ],
+      "locator": "\"32-Bar Song Form (AABA)\"; \"Sections of AABA and Strophic Forms\"; \"Refrains\"; \"Outros (O) and Codas (X)\"",
+      "version": "Open Music Theory, Version 2, online edition; copyright 2023; accessed 2026-10-21",
+      "authority": "B",
+      "publisher": "Open Music Theory",
+      "observations": [
+        "32-bar form is described as four eight-measure sections in the earlier Golden Age repertoire; the chapter treats this as a historical norm, not a universal rule.",
+        "The A strophe carries the principal lyric/musical material and often prolongs tonic, while B contrasts and withholds A to generate tension.",
+        "AAB bridges commonly emphasize non-tonic harmony and end on dominant harmony so that the return of A satisfies the bridge function.",
+        "A refrain is a short lyric-invariant passage inside a strophe or other section, not automatically the same structural level as a chorus or bridge."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "mcclimon-2017-ii-v-space",
+      "url": "https://mtosmt.org/issues/mto.17.23.1/mto.17.23.1.mcclimon.html",
+      "title": "Transformations in Tonal Jazz: ii–V Space",
+      "author": "Michael McClimon",
+      "rights": {
+        "display": "MTO permits saving and sharing within scholarly research or discussion; republication requires written permission from the author and advance notice to the MTO editors.",
+        "license": "Copyright 2017 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "No automatic training or runtime redistribution permission; obtain separate author/editor permission and review all figures and examples.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original file."
+      },
+      "topics": [
+        "ii-V-I",
+        "guide-tones",
+        "transformational-theory",
+        "tritone-substitution",
+        "All-the-Things-You-Are",
+        "Blues-for-Alice"
+      ],
+      "locator": "Introduction §§0.1–0.9; §1 ii–V space; §§2.1–2.10 tritone substitutions and Blues for Alice; §§4.1–4.3",
+      "version": "Volume 23, Number 1, March 2017; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "The article treats ii-V-I as a fundamental unit of tonal-jazz harmony and models compositions through constituent ii-V progressions.",
+        "The bridge of \"All the Things You Are\" supports multiple readings by chord tones, guide-tone lines, and local key centers; the author presents these as complementary analytical strategies.",
+        "A tritone-substituted dominant can retain dominant function while changing the bass motion from a falling fifth to a semitone, so function and root path must be assessed separately.",
+        "The ii-V space reveals harmonic patterns but does not by itself explain melody, accompaniment realization, improvisation, or the full structure of a tune."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "smither-2019-guide-tone-space",
+      "url": "https://mtosmt.org/issues/mto.19.25.2/mto.19.25.2.smither.html",
+      "title": "Guide-Tone Space: Navigating Voice-Leading Syntax in Tonal Jazz",
+      "author": "Sean R. Smither",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2019 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "Not cleared by default for training or bundled runtime knowledge; seek explicit permission and review figures, score excerpts, and examples.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original file."
+      },
+      "topics": [
+        "guide-tones",
+        "voice-leading",
+        "ii-V-I",
+        "tritone-substitution",
+        "Nefertiti",
+        "Blues-for-Alice"
+      ],
+      "locator": "Introduction §§0.1-0.4; §1 \"Guide-Tone Theory in Jazz Pedagogy\" §§1.1-1.6; §2 \"Nefertiti\" §§2.12-2.14; §3 §§3.1-3.3",
+      "version": "Volume 25, Number 2, July 2019; DOI 10.30535/mto.25.2.4; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "Guide tones are the chordal third and seventh; guide-tone lines connect them smoothly and are central to many jazz-pedagogy accounts of harmonic navigation.",
+        "In falling-fifth progressions, the seventh of one chord can descend by semitone to become the third of the next, while another tone is often held as a common tone.",
+        "Tritone substitution can preserve dominant function and guide-tone connections while replacing the root motion, making guide-tone coherence and tonal-center clarity separate observations.",
+        "In \"Nefertiti\", guide-tone continuity helps connect unusually wandering harmonies; the article uses this to show local syntax, not to prove an unchanged global tonal center."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "carter-2025-beyond-strophic",
+      "url": "https://mtosmt.org/issues/mto.25.31.1/mto.25.31.1.carter.html",
+      "title": "Beyond Strophic: Prolonged Refrains, Choruses, and Bridges in the Blues, 1923-1966",
+      "author": "David S. Carter",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2025 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "No automatic training or runtime redistribution permission; obtain separate permission and review all recording references and musical examples.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original file."
+      },
+      "topics": [
+        "blues-form",
+        "AABA",
+        "verse-chorus",
+        "prolonged-refrain",
+        "bridge",
+        "hybridity",
+        "Great-Migration"
+      ],
+      "locator": "Introduction §§0.1–0.3; §§2.1–2.4 formal counts and 4+8 model; §§5.4–5.7 verse/bridge blend; §§6.1–6.4 solo-bridge; §§7.1–7.3 two-bridge; §§8.1–8.3 other models",
+      "version": "Volume 31, Number 1, March 2025; DOI 10.30535/mto.31.1.1; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "A corpus of 113 blues songs identifies five recurring formal approaches: 4+8, 8+8, verse/bridge blend, solo-bridge, and two-bridge.",
+        "The 4+8 model uses the last eight bars of a 12-bar blues as a prolonged refrain; the 8+8 model extends the first four bars to produce a clearer verse-chorus shape.",
+        "Vaudeville blues include AABA and ABAC examples, so strophic aab form is common but cannot define the whole genre.",
+        "In some verse/bridge blends, the twelve-bar harmonic pattern remains while stop time, melody, texture, and solos create contrast; the article relates such hybridity to Black migration, urban commercial audiences, and interacting musical/social conditions."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "cohn-2016-funky-rhythms",
+      "url": "https://mtosmt.org/issues/mto.16.22.2/mto.16.22.2.cohn.php",
+      "title": "A Platonic Model of Funky Rhythms",
+      "author": "Richard Cohn",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2016 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "Not cleared by default for training or runtime redistribution; seek permission and separately review linked recordings and figures.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original file."
+      },
+      "topics": [
+        "groove",
+        "big-band",
+        "duple-meter",
+        "tresillo",
+        "Duke-Ellington",
+        "AABA"
+      ],
+      "locator": "Introduction §§0.1–0.4; §§1.1–1.10 Ellington doo-wah analysis; §§2.8–2.11 Platonic model; §§3.1–3.4 generative framing",
+      "version": "Volume 22, Number 2, June 2016; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "Big-band jazz and several African-diasporic popular repertoires project duple meter across quarter pulses, half-note beats, four-bar phrases, eight-bar phrase pairs, and 32-bar AABA quatrains while overlaying recurring three-unit spans.",
+        "In \"It Don't Mean a Thing\", the bass and hocketing chords support a fast duple frame while two- and three-unit relations animate the groove.",
+        "The brass short-long response patterns are analyzed as cyclical doo-wahs; accent and timbre participate in the rhythmic structure rather than merely decorating it.",
+        "The strong duple-AABA model is tied to a specific big-band and popular-music repertoire, so it should not be promoted to a rule for every jazz style."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "butterfield-2006-anacrusis",
+      "url": "https://mtosmt.org/issues/mto.06.12.4/mto.06.12.4.butterfield.php",
+      "title": "The Power of Anacrusis: Engendered Feeling in Groove-Based Musics",
+      "author": "Matthew W. Butterfield",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2006 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "No automatic training or runtime redistribution permission; obtain explicit permission and assess each audio, transcription, and figure.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original audio or PDF."
+      },
+      "topics": [
+        "groove",
+        "swing",
+        "anacrusis",
+        "microtiming",
+        "ride-cymbal",
+        "backbeat",
+        "walking-bass"
+      ],
+      "locator": "Introduction §§1–4; §§10–22 anacrusis and rhythmic layers; §§32–37 swing groove and backbeat timing; §§40–52 Chameleon measurements and groove return",
+      "version": "Volume 12, Number 4, December 2006; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "Groove is modeled as an interaction between a recurring syntactical rhythm and expressive microrhythmic discrepancies; participatory differences under roughly 50 ms may create qualitative push, relaxation, or lay-back effects.",
+        "In the conventional swing groove, the ride pattern, swing-eighth structure, and walking-bass relation provide a framework against which backbeat timing is heard.",
+        "An on-top hi-hat backbeat can intensify forward drive, while a late 'in-the-pocket' backbeat can relax the feel without removing swing.",
+        "Listeners learn tempo-metrical and microtiming norms, helping explain why subtle timing differences can distinguish the feels of different Swing Era big bands."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "smither-2024-referents",
+      "url": "https://mtosmt.org/issues/mto.24.30.3/mto.24.30.3.smither.html",
+      "title": "Referents in the Palimpsests of Jazz: Disentangling Theme from Improvisation in Recordings of Standard Jazz Tunes",
+      "author": "Sean R. Smither",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2024 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "Not cleared by default for training or runtime redistribution; obtain explicit permission and review musical examples and third-party media.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original recording, score, or PDF."
+      },
+      "topics": [
+        "jazz-referent",
+        "improvisation",
+        "head-solos-head",
+        "arrangement",
+        "big-band",
+        "recording-version"
+      ],
+      "locator": "§1 \"The Problematics of Analyzing Standard Jazz Tunes\" §§1.1-1.12; §2 \"Representing Referents\" §§2.1-2.5; §3 \"Referent Defaults\" §§3.1-3.3",
+      "version": "Volume 30, Number 3, September 2024; DOI 10.30535/mto.30.3.6; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "Jazz tunes are flexible, continually reinterpreted structures rather than fixed works with one definitive recording or lead sheet.",
+        "A provisionally constructed referent uses multiple versions to separate tune-based material from improvisational departures; harmonic defaults may be weighted or equally viable alternatives.",
+        "Head-solos-head is identified as a common modern-jazz frame: the head establishes the tune, solos explore transformations, and the head returns.",
+        "Written big-band arrangements are characterized by comparatively thick harmonizations, counterlines, horn textures, soli, and ensemble hits; small-group arrangements may predetermine far less."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "nobile-2011-beatles-form",
+      "url": "https://www.mtosmt.org/issues/mto.11.17.3/mto.11.17.3.nobile.html",
+      "title": "Form and Voice Leading in Early Beatles Songs",
+      "author": "Drew F. Nobile",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2011 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "No automatic training or runtime redistribution permission; obtain explicit permission and review all song excerpts, graphs, and examples.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original file."
+      },
+      "topics": [
+        "AABA",
+        "SRDC",
+        "verse",
+        "bridge",
+        "voice-leading",
+        "Beatles",
+        "popular-form"
+      ],
+      "locator": "Introduction §0.1; §1 \"SRDC-B form\" §§1.1-1.3; §2 voice-leading model §§2.1 onward; §5 off-tonic beginnings",
+      "version": "Volume 17, Number 3, October 2011; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "The early-Beatles AABA model calls each A section a verse and each B section a bridge or middle eight; full-song repetitions can yield AABABA or AABAABA.",
+        "Within A, SRDC means statement, restatement, departure, and conclusion; the conclusion often carries the refrain or title lyric.",
+        "In the general model, S and R prolong tonic, D begins on IV or another pre-dominant, C completes the cadence, and B starts off-tonic before a dominant retransition.",
+        "Bridges tend to contrast both harmony and melody and prepare the return of A; songs still engage the model through deviations rather than fitting it mechanically."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "callahan-2013-songbook",
+      "url": "https://mtosmt.org/issues/mto.13.19.3/mto.13.19.3.callahan.html",
+      "title": "Sentential Lyric-Types in the Great American Songbook",
+      "author": "Michael R. Callahan",
+      "rights": {
+        "display": "Scholarly saving and sharing is permitted; republication requires the author's written permission and advance notification to MTO editors.",
+        "license": "Copyright 2013 by the Society for Music Theory; individual item copyright is held by the author; all rights reserved.",
+        "training": "Not cleared by default for training or runtime redistribution; obtain permission and review all lyric excerpts, transcriptions, and figures.",
+        "retrieval": "Public HTML and PDF text available; this batch read the named article sections and retained no original file."
+      },
+      "topics": [
+        "Great-American-Songbook",
+        "sentence",
+        "AABA",
+        "ABAC",
+        "lyrics",
+        "phrase-structure",
+        "cadence"
+      ],
+      "locator": "Introduction §§1.1-1.4; classification method and Sentential Lyric-Types through §6; full-song interaction examples in §8",
+      "version": "Volume 19, Number 3, September 2013; accessed 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online",
+      "observations": [
+        "Tin Pan Alley and musical-theatre songs commonly use regular eight- and sixteen-measure phrases, with AABA or ABAC combining two or four phrases into a song.",
+        "A musical sentence begins with two basic ideas, continues by building momentum or increasing fragmentation, and reaches a half or authentic cadence.",
+        "Lyrics can reproduce the same presentation-continuation-cadence logic through repetition, rhyme, line length, acceleration, and semantic shifts; words and music may cooperate, compensate, or contradict each other.",
+        "The interaction between regular frameworks and local irregularity supports using AABA/ABAC as an analytical expectation rather than a template for every work."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "openscore-ravel-quartet-mxl",
+      "url": "https://github.com/OpenScore/StringQuartets/blob/main/scores/Ravel%2C_Maurice/String_Quartet_in_F_major/sq8482283.mxl",
+      "title": "Ravel, String Quartet in F major, OpenScore 8482283 MusicXML",
+      "author": "Maurice Ravel; OpenScore String Quartets contributors",
+      "rights": {
+        "display": "CC0 encoding with attribution and explicit reduction omissions",
+        "license": "CC0 1.0; LICENSE.txt and score README retained in private research cache",
+        "training": "CC0 encoding; unrelated editions and recordings not included",
+        "retrieval": "Public repository; selected MusicXML blob pinned and verified"
+      },
+      "sha256": "3bffd57550f92adb8049971ab1a6b92a14f24c984a92f3f2ddbc32c7aa79f72e",
+      "topics": [
+        "ravel",
+        "string-quartet",
+        "texture",
+        "parallel-tenths"
+      ],
+      "locator": "Movement I, mm1-2, all4parts; verified exact pitch and duration events",
+      "version": "Git blob c6f9c7041983ec54a09d2736bfccb86044436a18; retrieved 2026-10-21",
+      "findings": [
+        "Two lower moving lines ascend in parallel tenths while viola sustains a different rhythm.",
+        "Violins meet at D4 at the end of m1; four parts do not require four distinct simultaneous pitches."
+      ],
+      "authority": "curated score encoding",
+      "publisher": "OpenScore String Quartets",
+      "access_status": "score-inspected-selected-sections"
+    },
+    {
+      "id": "haydn-mastic-normative-wit",
+      "url": "https://mtosmt.org/issues/mto.15.21.2/mto.15.21.2.mastic.php",
+      "title": "Normative Wit: Haydn's Recomposed Recapitulations",
+      "author": "Timothy R. Mastic",
+      "rights": {
+        "display": "bibliographic citation, precise locator, and independently written summary; no figures or extended text",
+        "license": "Copyright Society for Music Theory",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Sections 3.1-3.10, Symphony No. 100 first movement; sections 4.1-4.10, String Quartet Op. 33 No. 6 first movement",
+      "version": "Volume 21, Number 2, June 2015",
+      "authority": "peer-reviewed music-theory journal",
+      "publisher": "Music Theory Online"
+    },
+    {
+      "id": "imslp-haydn-op33",
+      "url": "https://imslp.org/wiki/String_Quartets,_Op.33_(Haydn,_Joseph)",
+      "title": "String Quartets, Op. 33",
+      "author": "Joseph Haydn",
+      "rights": {
+        "display": "short independently encoded musical excerpt with edition caveat",
+        "license": "Original work public domain; individual scans and editions vary",
+        "training": "review the chosen scan and local law before dataset use",
+        "retrieval": "allowed"
+      },
+      "locator": "Hob.III:42, Op. 33 No. 6, first movement; edition identity is not assumed from the collection page alone",
+      "version": "Collection page reviewed 2026-10-21; multiple public-domain historical editions",
+      "authority": "score repository with edition-level provenance",
+      "publisher": "International Music Score Library Project"
+    },
+    {
+      "id": "beethoven-eastman-fifth",
+      "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+      "title": "Symphony No. 5 in C minor, Op. 67 (1808)",
+      "author": "Eastman School of Music contributors",
+      "rights": {
+        "display": "bibliographic citation and independently written summary",
+        "license": "Copyright University of Rochester; no open reuse license found",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Significance and Structure, especially the paragraph beginning 'The first movement begins' and the movement/coda discussion",
+      "version": "Beethoven Symphony Basics web edition accessed 2026-10-21",
+      "authority": "institutional educational guide",
+      "publisher": "Eastman School of Music"
+    },
+    {
+      "id": "beethoven-eastman-third",
+      "url": "https://www.esm.rochester.edu/beethoven/symphony-no-3/",
+      "title": "Symphony No. 3 in E-flat, Op. 55 \"Eroica\" (1804)",
+      "author": "Eastman School of Music contributors",
+      "rights": {
+        "display": "bibliographic citation and independently written summary",
+        "license": "Copyright University of Rochester; no open reuse license found",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Significance and Structure, especially paragraphs on the first theme, its three statements, development, false return, recapitulation, and coda",
+      "version": "Beethoven Symphony Basics web edition accessed 2026-10-21",
+      "authority": "institutional educational guide",
+      "publisher": "Eastman School of Music"
+    },
+    {
+      "id": "hepkoski-fifth-p0-p1",
+      "url": "https://mtosmt.org/issues/mto.10.16.2/mto.10.16.2.hepokoski.php",
+      "title": "Formal Process, Sonata Theory, and the First Movement of Beethoven's \"Tempest\" Sonata",
+      "author": "James Hepokoski",
+      "rights": {
+        "display": "bibliographic citation, precise locator, and independently written summary; source figures excluded",
+        "license": "Copyright Society for Music Theory",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Sections 14-15, especially the P0-P1-P0 analysis of Symphony No. 5, first movement, mm. 1-25",
+      "version": "Volume 16, Number 2, June 2010",
+      "authority": "peer-reviewed music-theory journal",
+      "publisher": "Music Theory Online"
+    },
+    {
+      "id": "mit-ocw-baroque-concerto",
+      "url": "https://ocw.mit.edu/courses/21m-011-introduction-to-western-music-fall-2024/pages/week-6-recitation-6a-listening-reading-goetjen/",
+      "title": "Baroque Concerto",
+      "author": "Michael Goetjen",
+      "rights": {
+        "display": "independently written summary and link; course media is not copied",
+        "license": "MIT OpenCourseWare terms; page-level attribution applies",
+        "training": "review OpenCourseWare attribution terms before dataset use",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Baroque Concerto; Antonio Vivaldi; ritornello-form listening guide",
+      "version": "21M.011, Fall 2024; accessed 2026-10-21",
+      "authority": "university course reading",
+      "publisher": "MIT OpenCourseWare"
+    },
+    {
+      "id": "mto-maliniak-classical-cadenza",
+      "url": "https://mtosmt.org/issues/mto.25.31.3/mto.25.31.3.maliniak.html",
+      "title": "The Classical Concerto First-Movement Cadenza: Origins, Growth, Facilitating Factors and the Eventual Decline",
+      "author": "Omer Maliniak",
+      "rights": {
+        "display": "bibliographic citation, precise locator, and independently written summary; figures excluded",
+        "license": "Copyright Society for Music Theory",
+        "training": "excluded without permission",
+        "retrieval": "allowed for verification"
+      },
+      "locator": "Sections 0.3-0.4, 2.5-2.6, and 3.7-3.9 on Vivaldi's labeled cadenzas, Classical cadenza space, solo-tutti preparation, and closing ritornello",
+      "version": "Volume 31, Number 3, September 2025; DOI 10.30535/mto.31.3.5",
+      "authority": "peer-reviewed music-theory journal",
+      "publisher": "Music Theory Online"
+    },
+    {
+      "id": "mts-maliniak-greenberg-concerto",
+      "url": "https://doi.org/10.1093/mts/mtac009",
+      "title": "Follow the Solo: The Formal Evolution of the Concerto in the Eighteenth-Century",
+      "author": "Omer Maliniak and Yoel Greenberg",
+      "rights": {
+        "display": "bibliographic citation and abstract-level paraphrase only",
+        "license": "Copyright The Author(s), Oxford University Press",
+        "training": "excluded without permission",
+        "retrieval": "abstract and bibliographic record read"
+      },
+      "locator": "Abstract: corpus study of the shift from Baroque ritornello layout to Classical concerto form through the growing quantity and thematic quality of the solo part",
+      "version": "Volume 44, Issue 2, Fall 2022, pp. 231-259",
+      "authority": "peer-reviewed journal; abstract-level review",
+      "publisher": "Music Theory Spectrum"
+    },
+    {
+      "id": "mutopia-beethoven-symphony5-m1",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=497",
+      "title": "Symphony No. 5, Op. 67, first movement, piano reduction",
+      "author": "Ludwig van Beethoven; typeset by Magnus Lewis-Smith",
+      "rights": {
+        "display": "allowed with edition and transcription note",
+        "license": "Public Domain",
+        "training": "allowed subject to musical and attribution review",
+        "retrieval": "allowed"
+      },
+      "sha256": "2826592FEC7A53B13ACD22FB2E57F6BCB6C0EDC48887C3095F8642C2BF18BE15",
+      "locator": "Piano reduction, first movement, mm.1–5; sha256 identifies mvt01-allegroconbrio.ly",
+      "version": "Mutopia-2015/01/17-497; LilyPond 2.18.2; source Augener's Edition",
+      "authority": "public-domain typeset score",
+      "publisher": "Mutopia Project"
+    },
+    {
+      "id": "mutopia-vivaldi-spring",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
+      "title": "La Primavera / Spring, Op. 8 No. 1, RV 269",
+      "author": "Antonio Vivaldi; typeset by Mutopia contributor smailliw",
+      "rights": {
+        "display": "allowed with attribution and share-alike requirements",
+        "license": "CC BY-SA 3.0",
+        "training": "share-alike conditions apply",
+        "retrieval": "allowed"
+      },
+      "sha256": "85A13422F89EA3EDBA39EE84076588C9B05B34C833FC3A99F1A222B10C3A9271",
+      "locator": "First movement, pickup plus mm.1–4; spring1a.ly (violin I), spring1b.ly (violin II), spring1c.ly (viola), spring1d.ly (cello); sha256 identifies spring1a.ly",
+      "version": "Mutopia-2010/02/08-301; LilyPond 2.12.3; Performers' Facsimiles",
+      "authority": "openly licensed typeset score",
+      "publisher": "Mutopia Project",
+      "origin_files": [
+        {
+          "file": "spring1a.ly",
+          "sha256": "85a13422f89ea3edba39ee84076588c9b05b34c833fc3a99f1a222b10c3a9271"
+        },
+        {
+          "file": "spring1b.ly",
+          "sha256": "807acc2cb88208b1a8af4c6460feebc53e696ac97b56e5dd0129586f8d567291"
+        },
+        {
+          "file": "spring1c.ly",
+          "sha256": "bd1cb46276e8b0f5020a0d0701d7b464f126686f9dc7e12a49334cb0b42336bf"
+        },
+        {
+          "file": "spring1d.ly",
+          "sha256": "21b6ca9cd81bfa53006e4299f34e9c229bac40445f31df0a66df46af91a570a2"
+        }
+      ]
+    },
+    {
+      "id": "mutopia-mozart-k488",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2229",
+      "title": "Piano Concerto No. 23 in A major, K. 488",
+      "author": "Wolfgang Amadeus Mozart; typeset by William Chargin",
+      "rights": {
+        "display": "allowed with edition and transcription note",
+        "license": "Public Domain",
+        "training": "allowed subject to musical and attribution review",
+        "retrieval": "allowed"
+      },
+      "sha256": "A6DB2CA084BEBBE87AA8EE6F625EE51338753946FA4A38009846049BBF184C47",
+      "locator": "First movement, violin-i.ily mm.1–4 and piano.ily RH mm.67–70; sha256 identifies violin-i.ily",
+      "version": "Mutopia-2019/01/21-2229; LilyPond 2.18.2; Breitkopf and Hartel (1879)",
+      "authority": "public-domain typeset score",
+      "publisher": "Mutopia Project",
+      "origin_files": [
+        {
+          "file": "violin-i.ily",
+          "sha256": "a6db2ca084bebbe87aa8ee6f625ee51338753946fa4a38009846049bbf184c47"
+        },
+        {
+          "file": "piano.ily",
+          "sha256": "654ce8a85e0e4c79ce133392054306d64eac4598694316dd77586b2c898869ea"
+        }
+      ]
+    },
+    {
+      "id": "mutopia-chopin-etude-op10-2",
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O10/10-02-i/",
+      "title": "Etude in A minor, Op. 10 No. 2",
+      "author": "Frédéric Chopin; encoding Roland Goretzki",
+      "rights": {
+        "display": "Short excerpts are permitted with attribution to Chopin, Roland Goretzki, Mutopia, and the named engraving source",
+        "license": "Public Domain as declared by the typesetter in the source file",
+        "training": "Public-domain typesetter declaration; do not infer rights for a different edition",
+        "retrieval": "Local corpus copy obtained from Mutopia and hash-verified"
+      },
+      "sha256": "2471fb07690a2b8f7550d8d96b686c4bb3907556a8002b57fcef71111e503c1c",
+      "topics": [
+        "chopin",
+        "etude",
+        "piano",
+        "chromatic-figuration",
+        "hand-distribution"
+      ],
+      "locator": "Complete LilyPond encoding; right-hand chromatic figuration, inner dyads, and left-hand accompaniment checked in mm. 1-49",
+      "version": "Mutopia-2013/03/23-508; LilyPond 2.16.1; source Peters, Herrmann Scholtz, 1900b",
+      "authority": "open-score",
+      "publisher": "Mutopia Project",
+      "observations": [
+        "The outer right-hand voice keeps a chromatic sixteenth-note line while a second right-hand voice supplies dyads and the left hand marks harmonic support.",
+        "The continuous surface contains returns and register changes, so the etude is not one undifferentiated finger exercise.",
+        "The local source is a typeset Peters-derived edition, not an autograph collation."
+      ],
+      "access_status": "read-source-code-and-selected-measures"
+    },
+    {
+      "id": "mutopia-chopin-etude-op10-12",
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O10/op-10-12-wfi/",
+      "title": "Etude in C minor, Op. 10 No. 12",
+      "author": "Frédéric Chopin; encoding Roland Goretzki",
+      "rights": {
+        "display": "Short excerpts are permitted with attribution to Chopin, Roland Goretzki, Mutopia, and the named engraving source",
+        "license": "Public Domain as declared by the typesetter in the source file",
+        "training": "Public-domain typesetter declaration; do not infer rights for a different edition",
+        "retrieval": "Local corpus copy obtained from Mutopia and hash-verified"
+      },
+      "sha256": "3f68c0b7fcec5af44f4d41b55a1ec02d8c51a01aeece9cd4bae348a96556d0f1",
+      "topics": [
+        "chopin",
+        "etude",
+        "piano",
+        "left-hand-figuration",
+        "structural-return"
+      ],
+      "locator": "Complete LilyPond encoding; compared the introduction, principal figuration, middle contrasts, return, and coda across mm. 1-84",
+      "version": "Mutopia-2018/05/15-743; LilyPond 2.16.1; source Peters, Herrmann Scholtz, 1900b",
+      "authority": "open-score",
+      "publisher": "Mutopia Project",
+      "observations": [
+        "The opening alternates block sonorities with silence before a fast broken figure takes over.",
+        "The two hands share the continuous dramatic impulse through register and texture changes.",
+        "The source comments identify a return after a substantial contrasting middle and a short final coda."
+      ],
+      "access_status": "read-source-code-and-selected-sections"
+    },
+    {
+      "id": "mutopia-chopin-etude-op25-1",
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O25/chopin-op-25-01/",
+      "title": "Etude in A-flat major, Op. 25 No. 1",
+      "author": "Frédéric Chopin; encoding Roland Goretzki",
+      "rights": {
+        "display": "Short excerpts are permitted with attribution to Chopin, Roland Goretzki, Mutopia, and the named engraving source",
+        "license": "Public Domain as declared by the typesetter in the source file",
+        "training": "Public-domain typesetter declaration; do not infer rights for a different edition",
+        "retrieval": "Local corpus copy obtained from Mutopia and hash-verified"
+      },
+      "sha256": "d68d397ab8f4edfe7657210cce6311a180c0ef60cecff3b2be2c639373771d01",
+      "topics": [
+        "chopin",
+        "etude",
+        "piano",
+        "triplet-texture",
+        "structural-return"
+      ],
+      "locator": "Complete LilyPond encoding; compared the continuous triplet texture, middle pitch excursions, return near m. 36, and closing arpeggiation mm. 44-49",
+      "version": "Mutopia-2013/03/23-489; LilyPond 2.16.1; source Peters, Herrmann Scholtz, 1900b",
+      "authority": "open-score",
+      "publisher": "Mutopia Project",
+      "observations": [
+        "The two hands jointly sustain a continuous triplet surface while accents and registral placement create melodic continuity.",
+        "A relatively stable pitch field gives way to wider chromatic and registral excursions before the opening figuration returns.",
+        "The closing passage enlarges the established motion instead of appending an unrelated technical flourish."
+      ],
+      "access_status": "read-source-code-and-selected-sections"
+    },
+    {
+      "id": "mutopia-chopin-b130-etude1",
+      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/B130/TroisNouvellesEtudes_Chopin_n1/",
+      "title": "Trois Nouvelles Etudes No. 1 in F minor, B. 130",
+      "author": "Frédéric Chopin; encoding Romain Behar",
+      "rights": {
+        "display": "Short excerpts are permitted with attribution to Chopin, Romain Behar, Mutopia, and the 1880 Bote & Bock source",
+        "license": "Public Domain as declared by the typesetter in the source file",
+        "training": "Public-domain typesetter declaration; do not infer rights for a different edition",
+        "retrieval": "Local corpus copy obtained from Mutopia and hash-verified"
+      },
+      "sha256": "aa80beded6f3407afae7366a5f523c987e6cd58694054af7a524f820877835be",
+      "topics": [
+        "chopin",
+        "nouvelle-etude",
+        "piano",
+        "polyrhythm",
+        "hand-distribution"
+      ],
+      "locator": "Complete LilyPond encoding; checked the separate-hand definitions and the combined passage in mm. 9-10",
+      "version": "Mutopia-2013/12/14-1895; LilyPond 2.16.2; source Bote & Bock, 1880",
+      "authority": "open-score",
+      "publisher": "Mutopia Project",
+      "observations": [
+        "The opening is not a continuous two-hand 3:4 exercise: mm. 1-4 contain right-hand triplets while the left hand rests, and the left hand plays alone in mm. 5-8.",
+        "The hands combine in this source at mm. 9-10; each half-bar aligns three right-hand triplet groups with four left-hand eighths.",
+        "The right-hand source uses relative pitch while the left-hand source is absolute; the excerpt context must preserve that distinction."
+      ],
+      "access_status": "read-source-code-and-selected-measures"
+    },
+    {
+      "id": "chopin-laphil-etudes",
+      "url": "https://www.laphil.com/works/etudes-op-10-nos-1-2-3-4-12-and-etudes-op-25-nos-5-6-11",
+      "title": "Etudes, Op. 10, Nos. 1, 2, 3, 4, 12 and Etudes, Op. 25, Nos. 5, 6, 11",
+      "author": "Steve Lacoste",
+      "rights": {
+        "display": "Bibliographic citation and an independently written concise synthesis only",
+        "license": "Copyright Los Angeles Philharmonic Association; all rights reserved",
+        "training": "No training or runtime redistribution permission inferred",
+        "retrieval": "Public web reading with no access bypass"
+      },
+      "topics": [
+        "chopin",
+        "etude",
+        "piano-technique",
+        "structural-contrast"
+      ],
+      "locator": "Paragraphs on Op. 10 Nos. 1-4 and 12; Op. 25 Nos. 5, 6, and 11",
+      "version": "Program note; web edition consulted 2026-10-21",
+      "authority": "B",
+      "publisher": "Los Angeles Philharmonic",
+      "observations": [
+        "The note treats each etude as a bounded technical problem that also sustains musical poetry.",
+        "Op. 10 No. 2 is described as chromatic passagework over a sparse accompaniment.",
+        "Op. 10 No. 12 is described as left-hand virtuosity with a march-like right-hand idea.",
+        "Op. 25 No. 6 and No. 11 are useful comparative examples for changing the distribution of technical and melodic work."
+      ],
+      "access_status": "read-page"
+    },
+    {
+      "id": "howat-2026-chopin-tenuto",
+      "url": "https://musicperformanceresearch.org/tenuto-ties-and-slurs-in-chopins-etudes/",
+      "title": "Tenuto Ties and Slurs in Chopin's Etudes",
+      "author": "Roy Howat",
+      "rights": {
+        "display": "Own summary and bibliography only; no third-party manuscript/edition images copied",
+        "license": "CC BY 4.0 for article as stated on publisher landing page; third-party source figures retain their separate terms",
+        "training": "CC BY conditions apply to author text; do not infer permission for third-party manuscript images",
+        "retrieval": "Public article and PDF read; citation DOI10.14439/mpr.13.3"
+      },
+      "topics": [
+        "chopin",
+        "etude",
+        "articulation",
+        "performance",
+        "notation"
+      ],
+      "locator": "Article pp.59-62 and65-68; open tenuto ties and Op.25 No.4 extended slurs. Root read actual publisher PDF 2026-10-21.",
+      "version": "Volume 13, 2026; web edition consulted 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Performance Research",
+      "observations": [
+        "The article treats several open curves in Opp. 10 and 25 as performance-significant notation rather than generic legato marks.",
+        "Its readings connect articulation scope to gesture and release; they do not establish that every similar curve has the same execution.",
+        "The Op. 25 No. 4 observation is included only as a scholarly example; that etude was not encoded for this chapter."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "debussy-delone-contrapuntal",
+      "url": "https://symposium.music.org/17/articles/claude-debussy-i-contrapuntiste-malgre-lui",
+      "title": "Claude Debussy, Contrapuntiste Malgre Lui",
+      "author": "Peter DeLone",
+      "rights": {
+        "display": "Bibliographic citation and independently written analysis only",
+        "license": "Copyright College Music Symposium and the author; all rights reserved",
+        "training": "No training or redistribution permission inferred",
+        "retrieval": "Public HTML read without access bypass; no PDF, score image, or raw copy retained"
+      },
+      "topics": [
+        "debussy",
+        "piano",
+        "texture",
+        "counterpoint",
+        "planing",
+        "whole-tone"
+      ],
+      "locator": "Reflets dans l'eau mm. 1-2 and 66-70; Voiles mm. 10-18; Toccata from Pour le Piano mm. 179-182",
+      "version": "October 1, 1977; web edition consulted 2026-10-21",
+      "authority": "A",
+      "publisher": "College Music Symposium, Volume 17",
+      "observations": [
+        "The opening of Reflets moves an upper series of three-note sonorities against a descending tenor figure; a registrally implied descent D-flat-C-B-flat gives coherence across the planed surface.",
+        "The descending figure is emphasized again in the au Mouvement passage and the return to D-flat around m. 70.",
+        "In Voiles, two related but textually distinct motives move within the 0,2,4,6,8,10 collection; rhythm and registral-timbral contrast separate them more than local consonance and dissonance."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "berliner-philharmoniker-debussy-la-mer",
+      "url": "https://www.berliner-philharmoniker.de/en/programme-notes/claude-debussy-la-mer/",
+      "title": "Claude Debussy, La Mer",
+      "author": "Susanne Stähr",
+      "rights": {
+        "display": "Bibliographic citation and independently written concise synthesis only",
+        "license": "Copyright Stiftung Berliner Philharmoniker; all rights reserved",
+        "training": "No training or runtime redistribution permission inferred",
+        "retrieval": "Public web reading with no access bypass"
+      },
+      "topics": [
+        "debussy",
+        "orchestra",
+        "la-mer",
+        "texture",
+        "timbre",
+        "form"
+      ],
+      "locator": "Movement list and commentary on De l'aube a midi sur la mer, Jeux de vagues, and Dialogue du vent et de la mer",
+      "version": "Programme note; web edition consulted 2026-10-21",
+      "authority": "B",
+      "publisher": "Berliner Philharmoniker",
+      "observations": [
+        "The first movement begins with sparse shadowed sound and increases textural density toward midday; Debussy anchors its later arrival on D-flat major.",
+        "The second movement uses trills, repeated notes, glissandi, and rapid runs as wave-like material and strings together changing motifs rather than developing one classical theme.",
+        "The finale combines chromatic sequences with pentatonic and gamelan-like colors, producing distinct orchestral strata."
+      ],
+      "access_status": "read-page"
+    },
+    {
+      "id": "conservatoire-paris-debussy-prelude",
+      "url": "https://www.conservatoiredeparis.fr/fr/enquete-autour-du-prelude-lapres-midi-dun-faune-de-debussy",
+      "title": "Enquete autour du Prelude a l'apres-midi d'un faune de Debussy",
+      "author": "Claude Abromont",
+      "rights": {
+        "display": "Bibliographic citation and independently written concise summary only",
+        "license": "Copyright Conservatoire national superieur de musique et de danse de Paris unless otherwise stated",
+        "training": "No training or redistribution permission inferred",
+        "retrieval": "Public web reading; no video, image, or raw copy retained"
+      },
+      "topics": [
+        "debussy",
+        "orchestra",
+        "prelude",
+        "timbre",
+        "thematic-transfer"
+      ],
+      "locator": "Les thèmes (flute/oboe/orchestra distinction); Leitmotive, L1 at mm31,79,82. Root read actual article sections 2026-10-21.",
+      "version": "Educational analysis; web edition consulted 2026-10-21",
+      "authority": "B",
+      "publisher": "Conservatoire de Paris",
+      "observations": [
+        "The analysis distinguishes thematic identity from instrumental color by identifying one exceptional transfer of the flute theme to the oboe.",
+        "A change of color can alter the function of recognizable material while leaving contour available for comparison.",
+        "The page is an institutional teaching summary, not a complete critical edition."
+      ],
+      "access_status": "read-sections"
+    },
+    {
+      "id": "berliner-philharmoniker-stravinsky-rite",
+      "url": "https://www.berliner-philharmoniker.de/en/programme-notes/igor-stravinsky-le-sacre-du-printemps-ballet/",
+      "title": "Igor Stravinsky, Le Sacre du printemps",
+      "author": "Kerstin Schüssler-Bach",
+      "rights": {
+        "display": "Bibliographic citation and independently written concise synthesis only",
+        "license": "Copyright Stiftung Berliner Philharmoniker; all rights reserved",
+        "training": "No training or runtime redistribution permission inferred",
+        "retrieval": "Public web reading with no access bypass"
+      },
+      "topics": [
+        "stravinsky",
+        "rite-of-spring",
+        "rhythm",
+        "metre",
+        "orchestration"
+      ],
+      "locator": "Composition and premiere facts; commentary on small diatonic cells, obsessive pulses, unstable metre, bitonal blocks, and percussive strings",
+      "version": "Programme note; web edition consulted 2026-10-21",
+      "authority": "B",
+      "publisher": "Berliner Philharmoniker",
+      "observations": [
+        "The note identifies rhythm, rapid metre changes, and disruptive accents as the score's driving force.",
+        "Small diatonic cells and sudden orchestral blocks matter more than continuous classical thematic development in the passages described.",
+        "Strings are used percussively alongside a large percussion section."
+      ],
+      "access_status": "read-page"
+    },
+    {
+      "id": "laphil-bartok-mspc",
+      "url": "https://www.laphil.com/works/music-for-strings-percussion-and-celesta",
+      "title": "Bela Bartok, Music for Strings, Percussion, and Celesta",
+      "author": "Orrin Howard",
+      "rights": {
+        "display": "Bibliographic citation and independently written concise synthesis only",
+        "license": "Copyright Los Angeles Philharmonic Association; all rights reserved",
+        "training": "No training or runtime redistribution permission inferred",
+        "retrieval": "Public web reading with no access bypass"
+      },
+      "topics": [
+        "bartok",
+        "fugue",
+        "night-music",
+        "rhythm",
+        "orchestral-space"
+      ],
+      "locator": "About this Piece: fugue subject and first movement; two string orchestras; third-movement night music; finale's Bulgarian rhythm and changing metres",
+      "version": "Program note; web edition consulted 2026-10-21",
+      "authority": "B",
+      "publisher": "Los Angeles Philharmonic",
+      "observations": [
+        "The first movement grows from a viola fugue subject, develops to a climax, then presents the subject in inversion with celesta cascades.",
+        "Two string orchestras divide spatially around the percussion, making antiphonal exchange a structural resource.",
+        "Later movements derive material from the first-movement subject; the finale combines irregular dance rhythm, changing metre, and recollection of the subject."
+      ],
+      "access_status": "read-page"
+    },
+    {
+      "id": "laphil-messiaen-quartet",
+      "url": "https://www.laphil.com/works/quartet-for-the-end-of-time",
+      "title": "Olivier Messiaen, Quartet for the End of Time",
+      "author": "Los Angeles Philharmonic",
+      "rights": {
+        "display": "Bibliographic citation and independently written concise synthesis only",
+        "license": "Copyright Los Angeles Philharmonic Association; all rights reserved",
+        "training": "No training or runtime redistribution permission inferred",
+        "retrieval": "Public web reading with no access bypass"
+      },
+      "topics": [
+        "messiaen",
+        "quartet",
+        "rhythm",
+        "mode",
+        "timbre"
+      ],
+      "locator": "About this Piece; composer descriptions of Liturgie de cristal, Vocalise, Abime des oiseaux, Louange a l'Eternite de Jesus, and Danse de la fureur",
+      "version": "Program note; web edition consulted 2026-10-21",
+      "authority": "B",
+      "publisher": "Los Angeles Philharmonic",
+      "observations": [
+        "The work is an eight-movement sequence written for the four instruments available in the prisoner-of-war camp.",
+        "Messiaen's own descriptions assign different temporal and theological roles to birdsong, slow melody, piano cascades, and the unison trumpet movement.",
+        "The note frames the quartet as an attempt to imagine the end of past and future rather than a progressive narrative of measured time."
+      ],
+      "access_status": "read-page"
+    },
+    {
+      "id": "luchese-1999-messiaen-review",
+      "url": "https://mtosmt.org/issues/mto.99.5.2/mto.99.5.2.luchese.html",
+      "title": "Review of Anthony Pople, Messiaen: Quatuor pour la fin du Temps",
+      "author": "Diane Luchese",
+      "rights": {
+        "display": "Scholarly saving is permitted, but republication requires permission and editor notification",
+        "license": "Copyright 1999 Society for Music Theory; all rights reserved",
+        "training": "No automatic training or runtime redistribution permission; review every score example separately",
+        "retrieval": "Public HTML and PDF links read without access bypass; no original file retained"
+      },
+      "topics": [
+        "messiaen",
+        "rhythm",
+        "mode",
+        "panisorhythm",
+        "form"
+      ],
+      "locator": "Review §§2-8, especially p. 27 panisorhythmic material, p. 42 Abime des oiseaux, and pp. 41-44 tempo/section issues",
+      "version": "Volume 5, Number 2, March 1999; web edition consulted 2026-10-21",
+      "authority": "A",
+      "publisher": "Music Theory Online 5.2",
+      "observations": [
+        "The review identifies non-retrogradable rhythm, modes of limited transposition, added values, inexact augmentation and diminution, rhythmic pedals, and resonance chords among the work's techniques.",
+        "Pople presents some analytical derivations as hypothetical models rather than claims about Messiaen's actual working method.",
+        "Section and tempo boundaries in Abime des oiseaux require care; a single formal chart can obscure different analytical levels."
+      ],
+      "access_status": "read-review"
+    },
+    {
+      "id": "omt-pitch-class-set",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/pc-sets-normal-order-and-transformations/",
+      "title": "Pitch-Class Sets, Normal Order, and Transformations",
+      "author": "Mark Gotham, Kyle Gullings, Chelsey Hamm, Bryn Hughes, Brian Jarvis, Megan Lavengood, and John Peterson",
+      "rights": {
+        "display": "Attribution and ShareAlike are required; independently paraphrase rather than copying the chapter",
+        "license": "Open Music Theory text is licensed CC BY-SA 4.0 except where otherwise noted",
+        "training": "CC BY-SA obligations apply; review embedded examples and media individually",
+        "retrieval": "Public search result and indirect web metadata reviewed; direct page fetch returned 403"
+      },
+      "topics": [
+        "pitch-class-set",
+        "normal-order",
+        "transposition",
+        "inversion",
+        "post-tonal-analysis"
+      ],
+      "locator": "\"Pitch-class sets\"; \"Normal order\"; \"Transposition\"; \"Inversion\"",
+      "version": "Open Music Theory, Version 2, online edition; copyright 2023; accessed 2026-10-21",
+      "authority": "B",
+      "publisher": "Open Music Theory",
+      "observations": [
+        "A pitch-class set groups pitch classes without requiring a single register or voicing.",
+        "Normal order and prime form describe abstract relationships while leaving register, rhythm, orchestration, and form to separate analysis.",
+        "Transposition and inversion can preserve intervallic structure while changing the sounding collection."
+      ],
+      "access_status": "read-table-of-contents-and-search-record; direct fetch blocked during batch"
+    }
+  ],
+  "version": 1,
+  "retrieved": "2026-10-21"
 }

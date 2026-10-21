@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "batch_id": "kb-c349fb3eff089ff2011f257b",
-  "snapshot_hash": "c349fb3eff089ff2011f257b05d86dc57a7c88f7a3aa6aab83dc3fbe65e4342e",
+  "batch_id": "kb-d499d8f8e153fe21e465cece",
+  "snapshot_hash": "d499d8f8e153fe21e465cece50602444195e20952ca8d176329f06f3403d97c9",
   "target_lilypond_version": "2.26.0",
   "compilation_validation": "not_performed",
   "articles": []
