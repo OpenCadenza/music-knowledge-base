@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "batch_id": "kb-6b3b575e7bbf135c69dc3efb",
+  "snapshot_hash": "6b3b575e7bbf135c69dc3efb0b52e3d4fd43cd0568485414904e3d9f2de12feb",
+  "target_lilypond_version": "2.26.0",
+  "compilation_validation": "not_performed",
+  "articles": [
+    {
+      "page_id": "page.e3bf0df3b4164113bad1304293d00a9b",
+      "path": "references/system/deployment-acceptance.md",
+      "revision": "1",
+      "sha256": "0badee31dcf6e504538dee2d096000d81adfc22a1f026eb462343be779184a7d"
+    }
+  ]
+}
