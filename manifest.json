@@ -1,10 +1,16 @@
 {
   "schema_version": 1,
-  "batch_id": "kb-756a6b918b39f9dd9ebdc459",
-  "snapshot_hash": "756a6b918b39f9dd9ebdc459eaaa1102e79546f9a8fd27a2d3af756dcfa2e07c",
+  "batch_id": "kb-1edb1bbc257cdee0f545db6e",
+  "snapshot_hash": "1edb1bbc257cdee0f545db6e33fd22edb3948fccc1c7db337cf1d82dfabefb01",
   "target_lilypond_version": "2.26.0",
   "compilation_validation": "not_performed",
   "articles": [
+    {
+      "page_id": "page.92014569ee9d43f78899b681df271ccd",
+      "path": "references/abc.md",
+      "revision": "9",
+      "sha256": "3a847f614b9fc62c7254642e8afce93d69e95f7fa1679ae1b32221257541d739"
+    },
     {
       "page_id": "page.f51f9fdea1be437bb6a58be1027b3824",
       "path": "references/composers/README.md",
@@ -30,10 +36,46 @@
       "sha256": "c822e84f1d1c1eda451cb2763090bed841bae4e08622e645d50c08745d267e64"
     },
     {
+      "page_id": "page.3cc6843f2554461aa44ef8ef63cae931",
+      "path": "references/development.md",
+      "revision": "35",
+      "sha256": "1583c2d8d3112f18ceba51b23e60096ec720db99df981fcae4687a24570c8612"
+    },
+    {
+      "page_id": "page.c9b0a30ba5484b968d9a9b31e422a2b9",
+      "path": "references/form.md",
+      "revision": "42",
+      "sha256": "847c0050a58d7bba373b5263ccf202d3c961b6e9a272ee7f6197c5440f039b72"
+    },
+    {
       "page_id": "page.b596f78e6f5a47929b901144262cbd04",
       "path": "references/home.md",
       "revision": "69",
       "sha256": "86a9d9a9ee75706e0ba8e06c014a0f26e2594aa698b298d4294603f0d8a81f42"
+    },
+    {
+      "page_id": "page.a3ee61dff2b44058835f0e2f465111ca",
+      "path": "references/lilypond.md",
+      "revision": "49",
+      "sha256": "17f8445064c86ec02f15c62287a3a767d14de958aaa28deab82a62b4132f90a0"
+    },
+    {
+      "page_id": "page.a6fcd99cae9141d2ae5e01e7ad000397",
+      "path": "references/techniques/README.md",
+      "revision": "64",
+      "sha256": "d7fbbd889d68799d122af51fbea062ee9c65bd980d1230b23254dece2616a392"
+    },
+    {
+      "page_id": "page.541a8e931620440cb5f0a061f91b51a3",
+      "path": "references/techniques/counterpoint/README.md",
+      "revision": "65",
+      "sha256": "28aaaeae24276cb4bb9ccd88c97f98c210b4c06175db84959e3669b32a028bef"
+    },
+    {
+      "page_id": "page.0b22638641e144d797ce2267fd7240e5",
+      "path": "references/techniques/counterpoint/practice.md",
+      "revision": "67",
+      "sha256": "e443221aaf411b965b662ef772896f82316e7c227b70a01133e5cbedaf813e64"
     }
   ]
 }

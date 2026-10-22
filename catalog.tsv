@@ -1,6 +1,13 @@
 page_id	path	title	summary	tags	aliases	knowledge_ids
+page.92014569ee9d43f78899b681df271ccd	references/abc.md	ABC 写谱与检查	ABC 写谱与检查	[]	[]	"[""operation.abc""]"
 page.f51f9fdea1be437bb6a58be1027b3824	references/composers/README.md	作曲家与作品案例	作曲家与作品案例	[]	[]	"[""composers.navigation""]"
 page.750ab529d6514778ab863b981efbb750	references/composers/bach/README.md	巴赫	巴赫	[]	[]	[]
 page.e77b01632d0140e4ac5c08545b05490e	references/composers/bach/examples/keyboard-counterpoint.md	巴赫键盘复调：从发明曲到前奏曲—赋格	巴赫键盘复调：从发明曲到前奏曲—赋格	[]	[]	"[""composer.bach.keyboard-counterpoint"", ""bach.invention.bwv772.motive-dialogue"", ""bach.fugue.bwv846.exposition"", ""bach.cycle.bwv846.prelude-to-fugue""]"
 page.1814f02b620149b58858c6e2660332d3	references/composers/bach/examples/keyboard-variations.md	巴赫键盘变奏：和声骨架与表面织体	巴赫键盘变奏：和声骨架与表面织体	[]	[]	"[""composer.bach.keyboard-variations"", ""bach.variation.bwv988.aria-to-var1""]"
+page.3cc6843f2554461aa44ef8ef63cae931	references/development.md	动机发展与材料记忆	动机发展与材料记忆	[]	[]	"[""operation.development""]"
+page.c9b0a30ba5484b968d9a9b31e422a2b9	references/form.md	曲式与连贯	曲式与连贯	[]	[]	"[""operation.form""]"
 page.b596f78e6f5a47929b901144262cbd04	references/home.md	OpenCadenza 音乐知识库	OpenCadenza 音乐知识库	[]	[]	[]
+page.a3ee61dff2b44058835f0e2f465111ca	references/lilypond.md	LilyPond 写谱与检查	LilyPond 写谱与检查	[]	[]	"[""operation.lilypond""]"
+page.a6fcd99cae9141d2ae5e01e7ad000397	references/techniques/README.md	材料与写作技法	材料与写作技法	[]	[]	"[""techniques.navigation""]"
+page.541a8e931620440cb5f0a061f91b51a3	references/techniques/counterpoint/README.md	对位、模仿与赋格	对位、模仿与赋格	[]	[]	"[""counterpoint.navigation""]"
+page.0b22638641e144d797ce2267fd7240e5	references/techniques/counterpoint/practice.md	独立声部与赋格	独立声部与赋格	[]	[]	"[""counterpoint.practice""]"
