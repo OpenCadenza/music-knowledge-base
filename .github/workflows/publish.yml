@@ -36,7 +36,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import json,os,pathlib
-          record={'schema_version':1,'app_id':int(os.environ['PUBLISHER_APP_ID']),'app_slug':os.environ['PUBLISHER_APP_SLUG'],'repository':'OpenCadenza/music-knowledge-base','source':'https://wiki.opencadenza.com','policy':'explicitly approved revision with completed conversion'}
+          record={'schema_version':1,'app_id':int(os.environ['PUBLISHER_APP_ID']),'app_slug':os.environ['PUBLISHER_APP_SLUG'],'git_identity':os.environ['PUBLISHER_APP_SLUG']+'[bot]','repository':'OpenCadenza/music-knowledge-base','source':'https://wiki.opencadenza.com','policy':'explicitly approved revision with completed conversion'}
           pathlib.Path('.github/publisher.json').write_text(json.dumps(record,indent=2)+'\n')
           PY
       - name: Fetch approved conversion snapshot
@@ -61,9 +61,13 @@ jobs:
       - name: Push a single atomic commit and acknowledge
         env:
           KB_EXPORT_TOKEN: ${{ secrets.KB_EXPORT_TOKEN }}
+          PUBLISHER_APP_SLUG: ${{ steps.publisher-token.outputs.app-slug }}
+          GH_TOKEN: ${{ steps.publisher-token.outputs.token }}
         run: |
-          git config user.name 'OpenCadenza Knowledge Publisher'
-          git config user.email 'publisher@opencadenza.com'
+          publisher_name="${PUBLISHER_APP_SLUG}[bot]"
+          publisher_id=$(gh api "/users/${publisher_name}" --jq .id)
+          git config user.name "$publisher_name"
+          git config user.email "${publisher_id}+${publisher_name}@users.noreply.github.com"
           git add -A
           if ! git diff --cached --quiet; then git commit -m "Publish $(cat "$RUNNER_TEMP/batch-id")"; git push origin HEAD:main; fi
           test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$(git rev-parse HEAD)"
