@@ -2,6 +2,7 @@
   "schema_version": 1,
   "app_id": 5430009,
   "app_slug": "opencadenza-wiki-publisher",
+  "git_identity": "opencadenza-wiki-publisher[bot]",
   "repository": "OpenCadenza/music-knowledge-base",
   "source": "https://wiki.opencadenza.com",
   "policy": "explicitly approved revision with completed conversion"
