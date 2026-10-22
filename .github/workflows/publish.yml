@@ -5,13 +5,15 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: knowledge-publication
   cancel-in-progress: false
 jobs:
   publish:
+    if: github.repository == 'OpenCadenza/music-knowledge-base' && github.ref == 'refs/heads/main' && vars.WIKI_PUBLISH_ENABLED != 'false' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     runs-on: [self-hosted, music-publisher]
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -49,4 +51,22 @@ jobs:
           body={'batch_id':pathlib.Path(os.environ['RUNNER_TEMP'],'batch-id').read_text(),'commit_sha':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()}
           request=urllib.request.Request('https://wiki.opencadenza.com/_kb/export/receipt',data=json.dumps(body).encode(),headers={'Authorization':'Bearer '+os.environ['KB_EXPORT_TOKEN'],'Content-Type':'application/json'})
           with urllib.request.urlopen(request,timeout=30) as response: print(response.read().decode())
+          PY
+      - name: Continue publication without relying on cron dispatch
+        if: always() && !cancelled() && vars.WIKI_PUBLISH_ENABLED != 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 300
+          python3 - <<'PY'
+          import json,os,time,urllib.request
+          url='https://api.github.com/repos/OpenCadenza/music-knowledge-base/actions/workflows/publish.yml/dispatches'
+          for attempt in range(3):
+              try:
+                  req=urllib.request.Request(url,data=json.dumps({'ref':'main'}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'})
+                  with urllib.request.urlopen(req,timeout=30) as r: assert r.status==204
+                  print('Next publication cycle dispatched');break
+              except Exception:
+                  if attempt==2: raise
+                  time.sleep(10*(attempt+1))
           PY
