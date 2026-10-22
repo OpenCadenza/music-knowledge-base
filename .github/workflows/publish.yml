@@ -4,7 +4,7 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
   actions: write
 concurrency:
   group: knowledge-publication
@@ -12,12 +12,33 @@ concurrency:
 jobs:
   publish:
     if: github.repository == 'OpenCadenza/music-knowledge-base' && github.ref == 'refs/heads/main' && vars.WIKI_PUBLISH_ENABLED != 'false' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
-    runs-on: [self-hosted, music-publisher]
+    runs-on: ubuntu-24.04
+    environment: wiki-publication
     timeout-minutes: 15
     steps:
+      - name: Mint repository-scoped Wiki publisher identity
+        id: publisher-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ vars.WIKI_PUBLISHER_APP_ID }}
+          private-key: ${{ secrets.WIKI_PUBLISHER_PRIVATE_KEY }}
+          owner: OpenCadenza
+          repositories: music-knowledge-base
+          permission-contents: write
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          token: ${{ steps.publisher-token.outputs.token }}
           persist-credentials: true
+      - name: Record active publication identity
+        env:
+          PUBLISHER_APP_ID: ${{ vars.WIKI_PUBLISHER_APP_ID }}
+          PUBLISHER_APP_SLUG: ${{ steps.publisher-token.outputs.app-slug }}
+        run: |
+          python3 - <<'PY'
+          import json,os,pathlib
+          record={'schema_version':1,'app_id':int(os.environ['PUBLISHER_APP_ID']),'app_slug':os.environ['PUBLISHER_APP_SLUG'],'repository':'OpenCadenza/music-knowledge-base','source':'https://wiki.opencadenza.com','policy':'explicitly approved revision with completed conversion'}
+          pathlib.Path('.github/publisher.json').write_text(json.dumps(record,indent=2)+'\n')
+          PY
       - name: Fetch approved conversion snapshot
         env:
           KB_EXPORT_TOKEN: ${{ secrets.KB_EXPORT_TOKEN }}
