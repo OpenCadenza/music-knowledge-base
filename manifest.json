@@ -1,8 +1,39 @@
 {
   "schema_version": 1,
-  "batch_id": "kb-d499d8f8e153fe21e465cece",
-  "snapshot_hash": "d499d8f8e153fe21e465cece50602444195e20952ca8d176329f06f3403d97c9",
+  "batch_id": "kb-756a6b918b39f9dd9ebdc459",
+  "snapshot_hash": "756a6b918b39f9dd9ebdc459eaaa1102e79546f9a8fd27a2d3af756dcfa2e07c",
   "target_lilypond_version": "2.26.0",
   "compilation_validation": "not_performed",
-  "articles": []
+  "articles": [
+    {
+      "page_id": "page.f51f9fdea1be437bb6a58be1027b3824",
+      "path": "references/composers/README.md",
+      "revision": "10",
+      "sha256": "fb3434f285029403db1caf26020626aff04c189d432dbe46b39f7956d8bb1e7e"
+    },
+    {
+      "page_id": "page.750ab529d6514778ab863b981efbb750",
+      "path": "references/composers/bach/README.md",
+      "revision": "11",
+      "sha256": "eec172e04a313b736e24b09f192991b46ebfe41dbc23dbc1a289b88e5e3fda78"
+    },
+    {
+      "page_id": "page.e77b01632d0140e4ac5c08545b05490e",
+      "path": "references/composers/bach/examples/keyboard-counterpoint.md",
+      "revision": "13",
+      "sha256": "b95f26665200f49759567aab0ac40adc1939c7aa864d8c343b2522f3af51a3d3"
+    },
+    {
+      "page_id": "page.1814f02b620149b58858c6e2660332d3",
+      "path": "references/composers/bach/examples/keyboard-variations.md",
+      "revision": "14",
+      "sha256": "c822e84f1d1c1eda451cb2763090bed841bae4e08622e645d50c08745d267e64"
+    },
+    {
+      "page_id": "page.b596f78e6f5a47929b901144262cbd04",
+      "path": "references/home.md",
+      "revision": "69",
+      "sha256": "86a9d9a9ee75706e0ba8e06c014a0f26e2594aa698b298d4294603f0d8a81f42"
+    }
+  ]
 }
