@@ -217,7 +217,7 @@ bass = \relative c {
 ### 写作流程
 
 1. 先写单声部 subject，并明确调性中心与可辨节奏。
-2. 在不同音区写 answer，检查关键音程是否需作 tonal adjustment。
+2. 在不同音区写 answer，检查关键��程是否需作 tonal adjustment。
 3. 每次新进入前保留一个仍在运动的声部，检查其与 subject/answer 的协和、独立节奏和可转位性。
 4. 四声部都进入后安排 episode 或终止，不把主题入口当作结构填充。
 
