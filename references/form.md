@@ -26,4 +26,4 @@ compilation_validation: not_performed
 
 来源定位：[OMT thematic modules](https://openmusictheory.github.io/sonataThematicModules.html) 的 P / TR / S / C；[development](https://openmusictheory.github.io/sonataDevelopment.html) 的 Tonal / Thematic organization、Four modules；[recapitulation](https://openmusictheory.github.io/sonataRecap.html) 的 Recomposition / Crux。这些属于特定奏鸣曲分析框架，不能机械外推到全部时期。
 
-变奏可改变节拍、织体、调式或材料角色；先声明哪些关系维持，哪些改变，再查实际谱。依据 [Rubin, Theme and Variations](https://open.lib.umn.edu/musiccomposition/chapter/composing-a-theme-and-variations/) 各变奏及 Ending the Variations；不要求每组变奏都按该教材的顺序。
+变奏可改变节��、织体、调式或材料角色；先声明哪些关系维持，哪些改变，再查实际谱。依据 [Rubin, Theme and Variations](https://open.lib.umn.edu/musiccomposition/chapter/composing-a-theme-and-variations/) 各变奏及 Ending the Variations；不要求每组变奏都按该教材的顺序。
